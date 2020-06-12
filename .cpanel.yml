@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/silaalrh/event_permit.silasogar.tech/
+    - /bin/cp -R beautify $DEPLOYPATH

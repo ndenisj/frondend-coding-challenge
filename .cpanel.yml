@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/silaalrh/eventpermit.silasogar.tech/
-    - /bin/cp beautify/* $DEPLOYPATH
+    - /bin/cp -R beautify/* $DEPLOYPATH
